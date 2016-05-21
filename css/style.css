@@ -1,0 +1,146 @@
+
+html, body {
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-repeat: repeat;
+    background-color: #080059;
+    background-position: 50% 50%;
+    background-attachment:fixed;
+    background-image: url(../img/background.png);
+}
+
+.div1{
+    background-image: url(../img/background2.png);
+    width: 1280px;
+    height: 800px;
+    background-position: 50% 50%;
+    background-repeat: repeat-x;
+}
+
+.logo{
+    padding-top: 90px;
+    width: 283px;
+    height: 303px;
+}
+
+.logo2{
+    padding-top: 100px;
+}
+ul{
+    padding-top: 55px;
+}
+
+.nav{
+    display: block;
+    background-color: #fff;
+    width: 455px;
+    height: 21px;
+    margin-bottom: 5px;
+}
+
+a{
+    font-family: futura;
+    color: #000;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+}
+.face{
+    padding-top: 102px;
+}
+.name{
+    color: #FF3200;
+    font-family: futura;
+    font-size: 32px;
+}
+
+.div2{
+        width: 1280px;
+        height: auto;
+}
+h1{
+    -webkit-margin-before: 5px;
+    -webkit-margin-after: 5px;
+}
+.subtitle{
+    color: #fff;
+    font-family: futura;
+    font-size: 21px;
+    margin-top: 15px
+}
+.hello{
+    color:#fff;
+    font-family: futura;
+    text-align:center;
+    font-size: 18px;
+}
+
+.bxslider{
+        width: 1280px;
+        height: 800px;
+}
+
+#work{
+    height: 550px;
+    width: 470px;
+    overflow: hidden;
+    position: relative;
+
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+/*.picsSlider{
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+
+.picsSlider li{
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}*/
+
+.div4{
+        width: 1280px;
+        height: 800px;
+}
+
+dl{
+    width: 370px;
+    height: 390px;
+    padding-right: 455px;
+    padding-left: 455px;
+    padding-top: 205;
+    padding-bottom:205;
+
+}
+
+.table{
+    font-family: futura;
+    font-size: 22px;
+    color:#fff;
+    text-align: left;
+}
+
+.input1{
+    width: 370px;
+}
+
+.input2{
+    width: 370px;
+}
+
+.input3{
+    width: 370px;
+    height: 226px;
+}
