@@ -49,15 +49,15 @@
 
 <div class="div4" id="contact">
 
-<dl action="coment.php" method="post">
+<form action="coment.php" method="post">
     <dt class="table" >Your name</dt>
     <dd><input class="input1" type="text" name="name"></input></dd>
     <dt class="table">Your e-mail</dt>
     <dd><input class="input2" type="text" name="email"></input></dd>
     <dt class="table">Your message</dt>
-    <dd><input class="input3" type="text" name="coments"></input></dd>
-    <dd><input type="submit" value="送信"></dd>
-</dl>
+    <dd><textarea class="input3" type="text" name="coments"></textarea></dd>
+    <dd><input type="submit" value="send"></dd>
+</form>
 </div>
 
 </div>

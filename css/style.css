@@ -23,6 +23,10 @@ body{
     background-repeat: repeat-x;
 }
 
+.center{
+    text-align: center;
+}
+
 .logo{
     padding-top: 90px;
     width: 283px;
@@ -32,8 +36,10 @@ body{
 .logo2{
     padding-top: 100px;
 }
-ul{
+.menu{
     padding-top: 55px;
+    padding-left: 550px;
+    text-align: center;
 }
 
 .nav{
@@ -59,6 +65,7 @@ a{
     color: #FF3200;
     font-family: futura;
     font-size: 32px;
+    text-align: center;
 }
 
 .div2{
@@ -74,6 +81,7 @@ h1{
     font-family: futura;
     font-size: 21px;
     margin-top: 15px
+    text-align:center;
 }
 .hello{
     color:#fff;
@@ -85,6 +93,7 @@ h1{
 .bxslider{
         width: 1280px;
         height: 800px;
+        text-align: center;
 }
 
 #work{
@@ -115,7 +124,7 @@ h1{
         height: 800px;
 }
 
-dl{
+form{
     width: 370px;
     height: 390px;
     padding-right: 455px;
