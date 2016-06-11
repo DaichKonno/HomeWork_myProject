@@ -5,12 +5,17 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
 <script src="js/jquery.bxslider.min.js"></script>
 <link href="css/jquery.bxslider.css" rel="stylesheet" />
+<link rel="stylesheet" href="jquery.peekABar-1.0.1/dist/css/jquery.peekabar.min.css">
+<script src="jquery.peekABar-1.0.1/dist/js/jquery.peekabar.min.js"></script>
 <script type="text/javascript">
         $(document).ready(function(){
             $('.bxslider').bxSlider({
                 auto: true,
             });
             $('#prof').fadeIn(1500);
+        var bar = new $.peekABar();
+        bar.show('thank you');
+        // bar.hide();
         });
 
 </script>
