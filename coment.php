@@ -17,6 +17,8 @@ mb_internal_encoding('UTF-8');
 mb_language('Japanese');
 mb_send_mail('wildeste@hotmail.co.jp', 'メッセージが届きました', "$coments $name $email");
 
+header('Location:index.php');
+exit;
 
 ?>
 <head>
