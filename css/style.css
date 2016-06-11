@@ -36,16 +36,19 @@ body{
 .logo2{
     padding-top: 100px;
 }
+
+
 .menu{
     padding-top: 55px;
-    padding-left: 550px;
+    padding-left: 413px;
+    padding-left: 413px;
     text-align: center;
 }
 
 .nav{
     display: block;
     background-color: #fff;
-    width: 455px;
+    width: 454px;
     height: 21px;
     margin-bottom: 5px;
 }
@@ -102,7 +105,8 @@ h1{
     overflow: hidden;
     position: relative;
 
-    margin-left: 50px;
+    margin-left: 405px;
+    margin-right: 405px;
     margin-top: 50px;
 }
 

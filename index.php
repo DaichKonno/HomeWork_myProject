@@ -31,7 +31,7 @@
 <div class="center"><img class="logo2" src="img/logo2.png"></div>
   <div class="center"><img class="logo" src="img/logo.png"></div>
 
-    <div class="center">
+    <div class="menu_center">
     <ul class="menu">
      <li class="nav"><a href="#prof">PROFILE</a></li>
      <li class="nav"><a href="#work">WORKS</a></li>
