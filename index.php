@@ -13,8 +13,12 @@
                 auto: true,
             });
             $('#prof').fadeIn(1500);
-        var bar = new $.peekABar();
-        bar.show('thank you');
+<?php if ($_GET['thanks']): ?>
+        var bar = new $.peekABar({autohide: true});
+        bar.show({
+    html: 'Override all, puny humans!'
+});
+<?php endif ?>
         // bar.hide();
         });
 
