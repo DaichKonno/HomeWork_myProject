@@ -1,9 +1,5 @@
 <?php
 
-mb_internal_encoding('UTF-8');
-mb_language('Japanese');
-mb_send_mail('test@example.com', '件名', '本文');
-
 require_once('functions.php');
 
 if (empty($_POST['name']) || empty($_POST['email']) || empty($_POST['coments']))
@@ -19,7 +15,7 @@ $coments = $_POST['coments'];
 
 mb_internal_encoding('UTF-8');
 mb_language('Japanese');
-mb_send_mail('wildestet@hotmail.co.jp', 'メッセージが届きました', "$coments $name $email");
+mb_send_mail('wildeste@hotmail.co.jp', 'メッセージが届きました', "$coments $name $email");
 
 
 ?>
