@@ -12,11 +12,11 @@
             $('.bxslider').bxSlider({
                 auto: true,
             });
-            $('#prof').fadeIn(1500);
+            $('#prof').fadeIn();
 <?php if ($_GET['thanks']): ?>
         var bar = new $.peekABar({autohide: true});
         bar.show({
-    html: 'Override all, puny humans!'
+    html: 'Thanks'
 });
 <?php endif ?>
         // bar.hide();
@@ -50,7 +50,7 @@
     <ul class="snsMenu">
       <li class="button"><a href="https://www.facebook.com/diech.konno"><img src="img/fbButton.png"></a></li>
       <li class="button"><a href="https://www.instagram.com/diech88/"><img src="img/instglmButton.png"></a></li>
-      <li class="button"><a href="https://twitter.com/Diech88"><img src="img/tmblrButton.png"></a></li>
+      <li class="button"><a href="https://twitter.com/Diech88"><img src="img/twtButton.png"></a></li>
       <li class="button"><a href="https://github.com/DaichKonno"><img src="img/ghButton.png"></a></li>
     </ul>
     </div>

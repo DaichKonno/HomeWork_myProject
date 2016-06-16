@@ -15,9 +15,9 @@ $coments = $_POST['coments'];
 
 mb_internal_encoding('UTF-8');
 mb_language('Japanese');
-mb_send_mail('wildeste@hotmail.co.jp', 'メッセージが届きました', "$coments $name $email");
+mb_send_mail('wildeste@hotmail.co.jp', 'メッセージが届きました', "名前:$name メールアドレス:$email メッセージ:$coments");
 
-header('Location:index.php');
+header('Location:index.php?thanks=1');
 exit;
 
 ?>
