@@ -40,12 +40,20 @@
   </div>
 </div>
 
-<div class="div2" id="prof" style="display:none">
+<div class="div2" id="prof" //style="display:none">
   <div class="center"><img src="img/face.png" class="face"></div>
   <h1><a class="name"><div class="center>">KONNO DAICHI</div></a></h1>
   <div class="center"><a class="subtitle">GRAPHIC DESIGNER</a></div>
     <div class="hello"><a class="hello">Hi my name is Daichi.<br>
         I was born and raised in Japan.</a></div>
+    <div class="snsBox">
+    <ul class="snsMenu">
+      <li class="button"><a href="https://www.facebook.com/diech.konno"><img src="img/fbButton.png"></a></li>
+      <li class="button"><a href="https://www.instagram.com/diech88/"><img src="img/instglmButton.png"></a></li>
+      <li class="button"><a href="https://twitter.com/Diech88"><img src="img/tmblrButton.png"></a></li>
+      <li class="button"><a href="https://github.com/DaichKonno"><img src="img/ghButton.png"></a></li>
+    </ul>
+    </div>
 </div>
 
 <div class="center">

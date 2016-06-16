@@ -92,7 +92,28 @@ h1{
     text-align:center;
     font-size: 18px;
 }
+.snsBox{
+    width: auto;
+    height: 170px;
+    margin-left:380px;
+    margin-right:380px;
+}
+ul{
+    -webkit-padding-start: 0;
+}
+.snsMenu{
+    width: 520px;
+    height: 130px;
+    text-align: center;
+}
+.button{
+    width: 90px;
+    height: 90px;
+    padding: 20px;
+    float: left;
+    display: block;
 
+}
 .bxslider{
         width: 1280px;
         height: 800px;
