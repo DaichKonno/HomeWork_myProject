@@ -16,7 +16,7 @@ body{
 }
 
 .div1{
-    background-image: url(../img/background2.png);
+    /*background-image: url(../img/background2.png);*/
     width: 1280px;
     height: 800px;
     background-position: 50% 50%;
@@ -37,7 +37,6 @@ body{
     padding-top: 100px;
 }
 
-
 .menu{
     padding-top: 55px;
     padding-left: 412px;
@@ -53,6 +52,10 @@ body{
     margin-bottom: 5px;
 }
 
+.nav:hover{
+    opacity: .8;
+}
+
 a{
     font-family: futura;
     color: #000;
@@ -60,7 +63,13 @@ a{
     text-decoration: none;
 }
 
+
+.nav a{
+    display: block;
 }
+
+
+
 .face{
     padding-top: 102px;
 }
@@ -113,7 +122,12 @@ ul{
     float: left;
     display: block;
 
+
 }
+.button :hover{
+    opacity: .9;
+}
+
 .bxslider{
         width: 1280px;
         height: 800px;
@@ -131,6 +145,43 @@ ul{
     margin-top: 50px;
 }
 
+#work li {
+            width: 550px;
+            position: relative;
+            overflow: hidden;
+        }
+
+#work figcaption {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            width: 550px;
+            height: 100%;
+            background: rgba(0,0,0,.6);
+            -webkit-transition: .3s;
+            transition: .3s;
+            opacity: 0;
+        }
+#work li:hover figcaption {
+            opacity: 1;
+        }
+
+#work li h3 {
+    padding: 20px 0 5px;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+#work li p {
+    color: #fff;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
 /*.picsSlider{
     height: 100%;
     position: absolute;
