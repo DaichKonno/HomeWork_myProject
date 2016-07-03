@@ -16,11 +16,12 @@ body{
 }
 
 .div1{
-    /*background-image: url(../img/background2.png);*/
+    background-image: url(../img/background2.png);
     width: 1280px;
     height: 800px;
     background-position: 50% 50%;
-    background-repeat: repeat-x;
+    background-repeat: none;
+    text-align: center;
 }
 
 .center{
@@ -172,7 +173,7 @@ ul{
     color: #fff;
     font-size: 24px;
     text-align: center;
-    font-family: 'Open Sans', sans-serif;
+    font-family: futura;
     font-weight: 600;
 }
 
@@ -194,10 +195,17 @@ ul{
     position: absolute;
     width: 100%;
 }*/
+.portfolio{
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 500;
+    color:  #FF3200;
+}
+
 
 .div4{
         width: 1280px;
         height: 800px;
+        padding-top: 50px;
 }
 
 form{
@@ -229,3 +237,9 @@ form{
     width: 370px;
     height: 226px;
 }
+.input{
+    width: 370px;
+    color: #080059;
+    font-weight: bold;
+}
+

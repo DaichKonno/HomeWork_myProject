@@ -5,7 +5,7 @@ require_once('functions.php');
 if (empty($_POST['name']) || empty($_POST['email']) || empty($_POST['coments']))
 {
     echo 'You must fill in all of the fields.';
-    echo '<a href="index.html">Back</a>';
+    echo '<a href="index.php">Back</a>';
     exit;
 }
 

@@ -2,6 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
 <link rel="shortcut icon" href="favicon.ico">
 <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,600">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
@@ -50,7 +51,6 @@
     </ul>
   </div>
 </div>
-
 <div class="div2" id="prof" //style="display:none">
   <div class="center"><img src="img/face.png" class="face"></div>
   <h1><a class="name"><div class="center>">KONNO DAICHI</div></a></h1>
@@ -73,6 +73,7 @@
   <li><img src="img/laCatrinaPc.png" /><figcaption><h3>Post Card</h3><p>Invitation</p></figcaption></li>
   <li><img src="img/laCarrinaSc.png" /><figcaption><h3>Shop Card</h3><p></p></figcaption></li>
 </div>
+ <a class="portfolio" href="portfolio.html" target="_blank">Do you wanna see more?</a>
 </div>
 
 <div class="div4" id="contact">
@@ -84,8 +85,9 @@
     <dd><input class="input2" type="text" name="email"></input></dd>
     <dt class="table">Your message</dt>
     <dd><textarea class="input3" type="text" name="coments"></textarea></dd>
-    <dd><input type="submit" value="send"></dd>
+    <dd><input class="input" type="submit" value="send"></dd>
 </form>
+  </div>
 </div>
 
 <?php require_once("googleAnalytics.php") ?>
