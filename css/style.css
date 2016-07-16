@@ -241,5 +241,6 @@ form{
     width: 370px;
     color: #080059;
     font-weight: bold;
+    border: none;
+    background-color: #fff;
 }
-

@@ -1,0 +1,32 @@
+@media screen and (max-width:640px){
+
+.div1,.div2,.div3,.div4,.bxslider{
+    width: 640px;
+}
+.nav{    width: 288px;
+}
+.menu{
+    padding-right: 176px;
+    padding-left: 176px;
+}
+.snsBox{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+#work{
+    margin-left: 85px;
+    margin-right: 85px;
+}
+form{
+    width: 370px;
+    height: 390px;
+    padding-right: 95px;
+    padding-left: 95px;
+    padding-top: 205;
+    padding-bottom:205;
+
+}
+element.style{
+    width: 640px;
+}
+}

@@ -10,6 +10,7 @@
 <link href="css/jquery.bxslider.css" rel="stylesheet" />
 <link rel="stylesheet" href="jquery.peekABar-1.0.1/dist/css/jquery.peekabar.min.css">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style-smp.css">
 <style>
   .div1{
    <?php if(mt_rand(0,1)==1):?>
